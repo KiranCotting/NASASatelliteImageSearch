@@ -34,7 +34,7 @@
                         <Slider x:Name="slider" ToolTip="The dimension, or zoom level, of the resulting image. Specified in degrees. Lower is more zoomed in." Value="0.15" Maximum="0.5" Minimum="0.005" TickFrequency="0.005" IsSnapToTickEnabled="True" Margin="5"></Slider>
                     </DockPanel>
                 </Grid>
-                <Button ToolTip="Click to request the specified image from NASA landsat 8 API." MouseUp="Button_Click">Retrieve Image Data</Button>
+                <Button ToolTip="Click to request the specified image from NASA landsat 8 API." Click="Button_Click">Retrieve Image Data</Button>
                 <Border Background="LightGray" Margin="2,2,2,5" x:Name="resultBackground">
                     <Label x:Name="result">No image to display.</Label>
                 </Border>

@@ -31,7 +31,7 @@ namespace GuardianInterviewProject
             InitializeComponent();
         }
 
-        private async void Button_Click(object sender, MouseButtonEventArgs e)
+        private async void Button_Click(object sender, RoutedEventArgs e)
         {
             result.Content = "API call pending, loading image...";
             resultBackground.Background = Brushes.LightGray;
